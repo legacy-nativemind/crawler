@@ -72,7 +72,24 @@ This table categorizes domains into various zones.
 
 ## Setup
 
-[Details on setup and installation.]
+
+Here's a script utilizing Scrapy with Twisted for asynchronous operation to collect backlinks from websites.
+
+Please note that you need to install dependencies with pip:
+
+```shell
+pip install scrapy python-dotenv mysql-connector-python
+```
+
+The script requires a .env file in the same directory, with the following keys:
+
+```shell
+DB_HOST=<your_db_host>
+DB_USER=<your_db_username>
+DB_PASS=<your_db_password>
+DB_NAME=<your_db_name>
+```
+
 
 ## Usage
 
